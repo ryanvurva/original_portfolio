@@ -1,8 +1,40 @@
+<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+
 html {
-  text-size-adjust: 100%;
+
 }
 
 body {
+  background-image: url("images/space.png");
+  background-position: center center;
+  background-repeat:  no-repeat;
+  background-attachment: fixed;
+  background-size:  cover;
+  background-color: #4b4a4a;
   margin: 0;
-  font: 16px / 1 sans-serif;
+  padding: 0;
+  font: 16px / 1;
+  font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+  color: transparent;
+}
+
+
+
+.small {
+  background-color: rgba(23, 34, 27, 0.6) ;
+  padding: 10px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+.small-pic {
+  display: inline-block;
+  margin: 5px 10px 5px 10px;
 }
