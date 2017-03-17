@@ -51,8 +51,16 @@ header {
     width: 250px;
     height: 250px;
     margin-top: auto;
-    border: transparent 1px;
+    border:  1px transparent solid;
     border-radius: 10px;
+}
+
+#me {
+  position: relative;
+  overflow: hidden;
+  top: 0px;
+  left: -70px;
+  width: 450px;
 }
 
 .me img {
@@ -109,7 +117,7 @@ header {
     justify-content: center;
     /*margin-left: 10px;*/
     /*margin-right: 10px;*/
-    margin: 30px;
+    margin: 30px 30px 0px 30px;
     flex: 1;
 }
 
@@ -186,19 +194,34 @@ div.fizz-header p {
     margin: 0px 15px 35px 15px;
 }
 
-.blue-box {
+.blue-box1 {
   position:relative;
-  right:0px;
-  top:0px;
-  width: 125px;
+  right: -300px;
+  top: -40px;
+  width: 175px;
 }
 
-.blue-box h3 {
+.blue-box1 h3 {
   border-radius: 5px;
   background-color: blue;
   color: #fff;
   text-align: center;
-  padding: 2px;
+  padding: 10px;
+}
+
+.blue-box2 {
+  position:relative;
+  right:-300px;
+  top:-40px;
+  width: 175px;
+}
+
+.blue-box2 h3 {
+  border-radius: 5px;
+  background-color: blue;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
 }
 
 .connected {
