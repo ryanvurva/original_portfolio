@@ -1,244 +1,184 @@
 <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">html {}
 
 body {
-    background-image: url("images/space.png");
-    background-position: center center;
+    background-image: url("images/Ryan-2.jpg");
+    background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
-    background-color: #4b4a4a;
+    background-color: rgb(0, 0, 10);
     margin: 0;
     padding: 0;
     font: 16px / 1;
     font-family: 'Roboto', sans-serif;
 }
 
-h1 {
-    color: transparent;
-}
-
 header {
     width: 100%;
-    height: 400px;
+    height: 800px;
     display: flex;
-    align-items: center;
-    flex-flow: column;
-    justify-content: space-between;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 100px;
+    justify-content: space-around;
+    margin-top: 0px;
+    margin-left: 0px;
 }
 
-.main {
-    max-width: 860px;
-    margin-left: auto;
-    margin-right: auto;
+h2 {
+    margin: 0px;
 }
 
-.profile {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 280px;
-}
-
-.me {
-    display: block;
-    position: relative;
-    overflow: hidden;
-    width: 250px;
-    height: 250px;
-    margin-top: auto;
-    border:  1px transparent solid;
-    border-radius: 10px;
-}
-
-#me {
-  position: relative;
-  overflow: hidden;
-  top: 0px;
-  left: -70px;
-  width: 450px;
-}
-
-.me img {
-    /*width: 250px;*/
-    margin-left: auto;
-    position: relative;
-}
-
-.about-me {
+.hello {
     background-color: #fff;
+    position: absolute;
     padding: 5px 25px 10px 25px;
     border-radius: 4px;
-    margin-left: 20px;
+    margin-top: 60px;
     margin-right: auto;
+    margin-bottom: 10px;
+    margin-left: 0px;
     opacity: 0.7;
     justify-content: center;
-    margin-bottom: 100px;
 }
 
-.tri {
+.hello::after {
+    content: url(images/tri.png);
     position: relative;
-    top: -100px;
-    left: 30px;
-    opacity: 0.7;
+    top: 34px;
+    left: 0px;
 }
 
-.small {
-    background-color: rgba(23, 34, 27, 0.6);
-    padding: 10px;
-    align-items: center;
+.slider {
+    background-color: #272827;
+    color: #fff;
+    opacity: 0.9;
+    width: 100%;
+    margin: 0;
+    padding-bottom: 20px;
+}
+
+.first {
+    color: #fff;
+    text-align: center;
+    width: 70%;
+    margin: 0 auto 0 auto;
+    padding: 20px 5px 20px 5px;
+}
+
+.second {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     margin-left: auto;
     margin-right: auto;
-}
-
-.small-pic {
-    display: inline-block;
-    margin: 5px 10px 5px 10px;
-}
-
-.seperator {
-    background-color: rgb(1, 15, 26);
-    width: 100%;
-    height: 100%;
-    margin-top: 20px;
-    padding-top: 5px;
-}
-
-.large {
     align-items: center;
-    display: flex;
-    flex-flow: column;
-    justify-content: center;
-    /*margin-left: 10px;*/
-    /*margin-right: 10px;*/
-    margin: 30px 30px 0px 30px;
-    flex: 1;
+    margin-top: 50px;
 }
 
-.react-pic {
-    position: relative;
-    width: 860px;
-    height: 80px;
-    overflow: hidden;
-    border: 0px transparent solid;
-    border-radius: 10px 10px 0px 0px;
-}
-
-#react-pic {
-    position: absolute;
-    top: -255%;
-}
-
-.react-text {
-    background-color: #fff;
-    border: 0px transparent solid;
-    overflow: hidden;
-    border-radius: 0px 0px 10px 10px;
-    width: 860px;
-}
-
-.react-header {
-    display: flex;
-    align-items: center;
-    margin: 0px 15px 0px 15px;
-}
-
-div.react-header p {
-    margin-left: 15px;
-}
-
-.react-info {
-    margin: 0px 15px 35px 15px;
-}
-
-.code {
-    position: relative;
-    width: 860px;
-    height: 80px;
-    overflow: hidden;
+.projects img {
+    display: block;
+    margin: auto;
+    width: 90%;
     border: 1px transparent solid;
-    border-radius: 10px 10px 0px 0px;
-    /*margin-bottom: 0px;*/
+    border-radius: 5px;
 }
 
-#code {
-    position: absolute;
-    top: -255%;
+.projects img:hover {
+    border: 1px #fff solid;
 }
 
-.fizz-text {
-    background-color: #fff;
-    border: 0px transparent solid;
-    overflow: hidden;
-    border-radius: 0px 0px 10px 10px;
-    width: 860px;
+.projects img::after {}
+
+.third {
+    margin: 40px 20px 0px 20px;
+    padding-bottom: 20px;
 }
 
-.fizz-header {
-    display: flex;
-    align-items: center;
-    margin: 0px 15px 0px 15px;
+.slider-2 {
+    background-image: url(images/design-ideas/grandcanyon2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    /*height: 800px;*/
 }
 
-div.fizz-header p {
-    margin-left: 15px;
+.skills {
+    color: #fff;
+    text-align: center;
+    width: 70%;
+    margin: 0 auto 0 auto;
+    padding: 100px 5px 20px 5px;
 }
 
-.fizz-info {
-    margin: 0px 15px 35px 15px;
+.skills-pics {
+    padding: 40px;
 }
 
-.blue-box1 {
-  position:relative;
-  right: -300px;
-  top: -40px;
-  width: 175px;
+.wordpress {
+    width: 90%;
+    margin: 0 auto 0 auto;
+    padding-bottom: 50px;
 }
 
-.blue-box1 h3 {
-  border-radius: 5px;
-  background-color: blue;
-  color: #fff;
-  text-align: center;
-  padding: 10px;
-}
-
-.blue-box2 {
-  position:relative;
-  right:-300px;
-  top:-40px;
-  width: 175px;
-}
-
-.blue-box2 h3 {
-  border-radius: 5px;
-  background-color: blue;
-  color: #fff;
-  text-align: center;
-  padding: 10px;
+.slider-2 p {
+    margin: 0;
 }
 
 .connected {
+    width: 100%;
+    height: 600px;
     display: flex;
     justify-content: space-around;
-    margin: auto, auto, 50px, auto;
+    margin-top: 0px;
+    margin-left: 0px;
 }
 
-.stay {
-    text-align: center;
-    font-weight: bold;
-    font-size: 25px;
-    color: #fff;
+.goodbye {
+    background-color: #fff;
+    position: absolute;
+    padding: 5px 25px 10px 25px;
+    border-radius: 4px;
+    margin-top: 60px;
+    margin-right: auto;
+    margin-bottom: 10px;
+    margin-left: 0px;
+    opacity: 0.7;
+    justify-content: center;
 }
+
+.goodbye::after {
+    content: url(images/tri.png);
+    position: relative;
+    top: 34px;
+    left: 0px;
+}
+
+.icons {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  margin:auto;
+  padding-bottom: 50px;
+}
+
+.social {
+  display: inline-block;
+    margin: 5px 10px 5px 10px;
+    width: 15%;
+}
+
+.social img:hover {
+  opacity: 0.8;
+}
+
+.social img:active {
+  opacity: 0.8;
+}
+
+
 
 footer {
-    background-color: rgb(1, 15, 26);
+    background-color: #272827;
+    opacity: 0.9;
     width: 100%;
     height: 100%;
     text-align: center;
@@ -255,8 +195,15 @@ footer p {
     color: red;
 }
 
-.tweet img {
-    margin-left: 8px;
-    margin-right: 8px;
-    margin-bottom: 30px;
+@media only screen and (max-width: 710px) {
+    body {
+        background-position: left -250px top 0px;
+    }
+    .slider {}
+    .second {
+        display: block;
+    }
+    .second img {
+        margin-top: 50px;
+    }
 }
